@@ -14,6 +14,7 @@ import day from "./images/day.svg";
 import github from "./images/github.png";
 import night from "./images/night.svg";
 
+
 export const Navbar = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const dispatch = useDispatch();
