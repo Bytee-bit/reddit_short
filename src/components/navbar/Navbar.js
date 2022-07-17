@@ -6,8 +6,8 @@ import { useHistory } from "react-router-dom";
 import { toggleTheme, selectTheme } from "../../features/themeSlice";
 
 // images
-import logo from "./images/logo.png";
-import logoNight from "./images/logo-night.png";
+import logo from "./images/reddit.png";
+import logoNight from "./images/logo-ni.png";
 import search from "./images/search.svg";
 import searchNight from "./images/search-night.svg";
 import day from "./images/day.svg";
@@ -74,7 +74,7 @@ export const Navbar = () => {
           <button onClick={() => dispatch(toggleTheme())} className="day">
             <img src={!theme ? day : night} alt="day" />
           </button>
-          <div className="github">
+          {/* <div className="github">
             <a
               href="#"
               target="_blank"
@@ -82,7 +82,7 @@ export const Navbar = () => {
             >
               <img src={github} alt="" />
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
     </nav>
