@@ -1,0 +1,139 @@
+.single-post {
+  width: 100%;
+  margin: 24px 0;
+  padding: 9px 30px 24px;
+  border-radius: 4px;
+  box-shadow: 0 4px 36px 0 rgba(0, 0, 0, 0.04);
+  background: #fff;
+}
+
+.reddit-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  height: 41px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.head > h5 {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.42;
+  color: #222;
+  margin-right: 4px;
+}
+
+.subreddit-para {
+  font-size: 12px;
+  line-height: 1.42;
+  color: #666;
+}
+
+.time {
+  font-size: 12px;
+  line-height: 1.42;
+  color: #666;
+  margin-left: auto;
+}
+
+.single-post > h4 {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.35;
+  color: #292929;
+  margin-top: 24px;
+}
+
+.single-post > .selftext {
+  margin-top: 10px;
+}
+
+.selftext {
+  font-size: 17px;
+  line-height: 1.35;
+  color: #292929;
+  overflow: scroll;
+}
+
+.btn-comments {
+  display: flex;
+  align-items: center;
+}
+
+.btn-comments > button {
+  display: flex;
+  padding: 5px 12px 6px;
+  border-radius: 4px;
+  background-color: rgba(255, 69, 0, 0.08);
+  border: none;
+  margin-top: 16px;
+  color: #ff4500;
+  line-height: 1.36;
+  font-size: 14px;
+}
+
+.btn-comments > button > .white-stripe {
+  width: 1px;
+  height: 20px;
+  background-color: #fff;
+  margin: 0 11px 0 12px;
+}
+
+.btn-comments > button > span {
+  font-weight: bold;
+}
+
+.image-container {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.show-more {
+  color: #ff4500;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 17px;
+  line-height: 1.35;
+}
+
+/* NIGHT STYLES */
+.night-single-post {
+  background-color: #1f304c;
+}
+
+.head > .night-h5 {
+  color: #f4f4f6;
+}
+
+.night-para {
+  color: #8891aa;
+}
+
+.night-head {
+  border-bottom: 1px solid #8891aa;
+}
+
+.night-h4 {
+  color: #f4f4f6 !important;
+}
+
+.night-selftext {
+  color: #f4f4f6 !important;
+}
+
+.btn-comments > button > .night-w-stripe {
+  background-color: #606b85 !important;
+}

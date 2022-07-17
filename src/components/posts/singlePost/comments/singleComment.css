@@ -1,0 +1,41 @@
+.comment-header {
+    display: flex;
+    align-items: center;
+    height: 56px;
+}
+
+.comment-header > .userIcon {
+    width: auto;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 12px;
+    margin-left: 11.3px;
+}
+
+.comment-header > .comment-arrow {
+    margin-left: 4px;
+}
+
+.comment-selftext {
+    margin-left: 28px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.singleComment:nth-last-child(2) > .comment-selftext {
+    border-bottom: none;
+    margin-bottom: 16px;
+    padding-bottom: 0px;
+}
+
+/* NIGHT STYLES */
+.night-c-s {
+    border-top: 1px solid #606b85;
+    border-bottom: 1px solid #606b85;
+}
+
+.night-author-h5 {
+    color: #f4f4f6;
+}

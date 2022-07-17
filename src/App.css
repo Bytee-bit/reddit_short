@@ -1,0 +1,23 @@
+.mainContent {
+  display: flex;
+  margin: 0 10.83%;
+}
+
+.subreddits-aside {
+  margin-right: 50px;
+}
+
+.filter-and-posts {
+  width: 628px;
+}
+
+.error {
+  height: 100vh;
+}
+
+.error p {
+  margin: 50px auto 0 auto;
+  width: fit-content;
+  font-size: 24px;
+  font-weight: 600;
+}

@@ -1,0 +1,80 @@
+.home {
+  display: flex;
+  align-items: center;
+  background-color: #fff0eb;
+  width: 200px;
+  text-decoration: none;
+}
+
+.stripe {
+  width: 6px;
+  height: 36px;
+  margin-right: 12px;
+  background-color: #ff4500;
+}
+
+h6 {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.38;
+  color: #666666;
+}
+
+.home h6 {
+  color: #ff4500;
+  margin-left: 6px;
+}
+
+.toggle-button {
+  display: flex;
+  margin: 10px 0 10px 18px;
+  border: none;
+  background-color: transparent;
+}
+
+.toggle-button img {
+  margin-right: 6px;
+}
+
+.arrow-up {
+  transform: rotate(0deg);
+  transition: transform 0.1s linear;
+}
+
+.arrow-down {
+  transform: rotate(180deg);
+  transition: transform 0.1s linear;
+}
+
+.links {
+  margin-left: 39px;
+  margin-bottom: 12px;
+}
+
+.link-to-subreddit {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.38;
+  color: #666666;
+  text-decoration: none;
+}
+
+.clicked-link {
+  text-decoration: underline;
+  color: #ff4500;
+}
+
+/* NIGHT STYLES */
+.home-night {
+  background-color: rgba(255, 69, 0, 0.2);
+}
+
+.night-h6,
+.night-link-to-subreddit {
+  color: #8891aa;
+}
+
+.night-clicked-link {
+  text-decoration: underline;
+  color: #ff4500;
+}
