@@ -11,7 +11,7 @@ import logoNight from "./images/logo-ni.png";
 import search from "./images/search.svg";
 import searchNight from "./images/search-night.svg";
 import day from "./images/day.svg";
-import github from "./images/github.png";
+// import github from "./images/github.png";
 import night from "./images/night.svg";
 
 
@@ -43,7 +43,7 @@ export const Navbar = () => {
     <nav className={!theme ? "night-nav" : null}>
       <section className="nav-content">
         <div className="logo">
-          <a href="https://read-reddit.netlify.app">
+          <a href="https://reddit-short.netlify.app">
             <img src={!theme ? logoNight : logo} alt="logo" />
           </a>
         </div>
@@ -75,15 +75,6 @@ export const Navbar = () => {
           <button onClick={() => dispatch(toggleTheme())} className="day">
             <img src={!theme ? day : night} alt="day" />
           </button>
-          {/* <div className="github">
-            <a
-              href="#"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={github} alt="" />
-            </a>
-          </div> */}
         </div>
       </section>
     </nav>
